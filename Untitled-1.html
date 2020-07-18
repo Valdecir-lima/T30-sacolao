@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      var arrPessoas = [];
+      arrPessoas.push({ nome: "Jão", sobreNome: "da Silva" });
+      arrPessoas.push({ nome: "Jão", sobreNome: "de Souza" });
+      arrPessoas.push({ nome: "Jão", sobreNome: "dos Santos" });
+      arrPessoas.push({ nome: "Maria", sobreNome: "Aparecida da Silva" });
+      arrPessoas.push({ nome: "Maria", sobreNome: "Aparecida da Souza" });
+
+      function buscarPorNome(nome) {
+        //????
+      }
+
+      let filtro1 = buscarPorNome("Jão");
+      console.log(filtro1); // [{ nome: "Jão", sobreNome: "da Silva" },{ nome: "Jão", sobreNome: "de Souza" } ]
+
+      let filtro2 = buscarPorNome("Maria");
+      console.log(filtro2); //[ { nome: "Maria", sobreNome: "Aparecida da Silva" }  ,  { nome: "Maria", sobreNome: "Aparecida da Souza" }]
+
+      let filtro3 = buscarPorNome("Zé");
+      console.log(filtro3); // []
+    </script>
+  </head>
+  <body></body>
+</html>
